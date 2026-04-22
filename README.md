@@ -1,12 +1,11 @@
-# PYQ Smart Assistant — Supervisor Demo
+# PYQ Smart Assistant 
 
-AI-powered previous year question paper assistant.
+AI-powered previous year question paper assistant demo 
 Covers Semester 6, 7, 8 — B.Tech IT — 2023 papers.
 
 ## What this demo tests
 
 - Loads all 3 question paper PDFs (18 subjects across 3 semesters)
-- Supervisor types any question or topic
 - System finds the relevant paper and generates a structured answer via Gemini AI
 - Browse questions paper-by-paper, or search any keyword across all papers
 
@@ -27,8 +26,8 @@ brew install tesseract
 ### 2. Clone and install Python packages
 
 ```bash
-git clone https://github.com/yourusername/pyq-smart-assistant.git
-cd pyq-smart-assistant
+git clone https://github.com/ANSHRAJCODE/pdfqanda.git
+cd pdfqanda
 
 pip install -r requirements.txt
 ```
@@ -38,7 +37,7 @@ pip install -r requirements.txt
 Get a free key at https://aistudio.google.com
 
 ```bash
-cp .env.example .env
+copy .env.example .env
 # Open .env in any text editor and set:
 # GEMINI_API_KEY=your_key_here
 ```
